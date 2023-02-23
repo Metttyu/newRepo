@@ -1,0 +1,39 @@
+1	Intézmények menedzselhetők a rendszerben admin felhasználók által
+		Intézményeket admin adhatja hozzá
+		Módosítás
+		Törlés
+		Intézmények adatai
+		Felsőokt. intézményeket lehet értékelni
+		Felsőokt. int. kategóriák: egyetem, főiskola, stb.
+2	A rendszer felhasználó menedzsmentet tartalmaz
+		Reg. jelszó számot és spec karaktert tartalmaz
+		Jelszó kis- és nagybetű különbségére érzékeny
+			Morzsi
+			morzsi
+		Jelszó min. 8 karakter
+		Reg. email validálást igényel
+		Érvénytelen felhasználó vagy jelszó esetén nem közli, hogy létezik-e olyan user
+		5 egymás utáni sikertelen bej. kísérlet zárolással jár
+			-nem regisztrált email 6x, elvárt: mindegyikre rossz user vagy jelszó üzenet
+			-regisztrált email jelszó 5x elrontva, 6. kísérlet helyes jelszóval, elvárt eredmény: zárolva
+			-regisztrált email 4x egymás után sikertelen login, 5. jó jelszó, elvárt: beenged, 6. jó jelszó, elvárt: beenged
+			-regisztrált email 4x egymás után sikertelen login, 5. jó jelszó, elvárt: beenged, 6. rossz jelszó, 7. jó jelszó, elvárt: beenged
+				
+3	Intézmények értékelése regisztrált felhasználók által
+		Értékelni reg után lehet
+		Értékelések törölhetők
+		Értékelések módosíthatók
+		Értékelések 1-10 skálán (1: legrosszabb)
+		Szöveges értékelés nem kötelező, minimum 10 maximum 1000 karakter
+		Csak hallgatók értékelhetnek
+4	Intézmény értékelések megtekintése honlap látogatók számára
+		Szűrhető
+		Rendezhető
+5	Keretrendszer
+		Nyitólap
+		Adatkezelése
+		Cikkek
+
+
+
+
